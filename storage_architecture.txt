@@ -1,0 +1,113 @@
+ARQUITECTURA DE ALMACENAMIENTO EMPRESARIAL
+
+1. Introduccion
+
+Los sistemas de almacenamiento empresarial proporcionan
+capacidad para conservar, proteger y entregar datos a
+servidores y aplicaciones.
+
+La seleccion de una arquitectura depende de factores
+como rendimiento, capacidad, disponibilidad, escalabilidad,
+proteccion de datos y costo.
+
+2. Almacenamiento por bloques
+
+El almacenamiento por bloques presenta la capacidad como
+volumenes logicos que pueden ser utilizados por servidores.
+
+Es habitual en bases de datos, sistemas operativos y
+aplicaciones que necesitan acceso directo a dispositivos
+de almacenamiento.
+
+Las redes SAN (Storage Area Network) proporcionan
+conectividad dedicada entre servidores y sistemas
+de almacenamiento.
+
+Entre las tecnologias utilizadas en entornos SAN se
+encuentran Fibre Channel e iSCSI.
+
+Fibre Channel utiliza una infraestructura de red
+especializada para transportar trafico de almacenamiento.
+
+iSCSI permite transportar comandos SCSI sobre redes IP.
+
+3. Almacenamiento por archivos
+
+El almacenamiento NAS (Network Attached Storage) ofrece
+acceso compartido a archivos mediante protocolos de red.
+
+Los protocolos habituales incluyen NFS y SMB.
+
+Este modelo es utilizado para directorios compartidos,
+repositorios de documentos, archivos de usuarios y
+aplicaciones que necesitan acceder a datos mediante
+una estructura de archivos y carpetas.
+
+La diferencia principal es que el almacenamiento por
+bloques entrega volumenes a los servidores, mientras
+que el almacenamiento por archivos proporciona acceso
+a archivos mediante protocolos compartidos.
+
+4. Almacenamiento por objetos
+
+El almacenamiento por objetos organiza la informacion
+en unidades independientes llamadas objetos.
+
+Cada objeto contiene datos, metadatos y un identificador
+unico.
+
+Este modelo resulta apropiado para grandes repositorios
+de contenido no estructurado, archivos multimedia,
+backups y datos que necesitan escalar horizontalmente.
+
+5. Rendimiento y capacidad
+
+El rendimiento de almacenamiento puede evaluarse
+mediante IOPS, throughput y latencia.
+
+IOPS representa la cantidad de operaciones de entrada
+y salida realizadas por segundo.
+
+Throughput representa la cantidad de datos transferidos
+por unidad de tiempo.
+
+La latencia mide el tiempo que tarda una operacion
+en completarse.
+
+Las aplicaciones transaccionales suelen ser sensibles
+a la latencia, mientras que los procesos de transferencia
+de grandes volumenes de datos pueden depender mas del
+throughput.
+
+6. Proteccion de datos
+
+Los snapshots permiten capturar una representacion
+de los datos en un momento determinado.
+
+La replicacion mantiene copias de datos en otro sistema
+de almacenamiento. Puede utilizarse para mejorar la
+disponibilidad y facilitar la recuperacion.
+
+Las copias de seguridad permiten recuperar informacion
+ante borrados accidentales, corrupcion de datos o
+incidentes de seguridad.
+
+La replicacion y los snapshots no reemplazan una estrategia
+integral de backup.
+
+7. Continuidad y recuperacion
+
+Una estrategia de proteccion debe definir objetivos
+de recuperacion.
+
+RPO (Recovery Point Objective) establece la cantidad
+maxima de perdida de datos medida en tiempo que una
+organizacion puede tolerar.
+
+RTO (Recovery Time Objective) establece el tiempo
+objetivo para recuperar un servicio despues de una
+interrupcion.
+
+Los valores de RPO y RTO deben definirse de acuerdo
+con la criticidad de las aplicaciones y los requisitos
+del negocio.

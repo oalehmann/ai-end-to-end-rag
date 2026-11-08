@@ -1,0 +1,81 @@
+INFRAESTRUCTURA DE TECNOLOGIA DE LA INFORMACION
+
+1. Conceptos generales
+
+La infraestructura de tecnologia de la informacion comprende
+los recursos de hardware, software, redes, almacenamiento y
+servicios necesarios para ejecutar las aplicaciones de una
+organizacion.
+
+Una infraestructura tradicional suele estar instalada en
+centros de datos propios. La organizacion es responsable de
+adquirir los servidores, instalar los sistemas operativos,
+administrar las redes, mantener el almacenamiento y garantizar
+la disponibilidad de los servicios.
+
+La infraestructura cloud permite consumir recursos
+computacionales mediante servicios provistos por un tercero.
+Estos recursos pueden incluir servidores virtuales,
+almacenamiento, redes y plataformas administradas.
+
+La infraestructura hibrida combina recursos locales
+(on-premises) con servicios cloud. Este modelo permite que
+una organizacion mantenga determinadas aplicaciones y datos
+en sus instalaciones mientras utiliza servicios externos
+para otras cargas de trabajo.
+
+2. Componentes principales
+
+Los servidores proporcionan capacidad de procesamiento,
+memoria y recursos para ejecutar aplicaciones y servicios.
+
+La infraestructura de red permite la comunicacion entre
+servidores, usuarios, dispositivos y sistemas externos.
+Incluye switches, routers, firewalls y balanceadores de carga.
+
+El almacenamiento conserva los datos necesarios para las
+aplicaciones y los sistemas operativos. Puede utilizar
+tecnologias basadas en bloques, archivos u objetos.
+
+Los sistemas de virtualizacion permiten ejecutar multiples
+maquinas virtuales sobre un mismo servidor fisico.
+
+3. Infraestructura hibrida
+
+Una arquitectura hibrida requiere una estrategia de
+integracion entre los recursos locales y los servicios cloud.
+
+La conectividad puede implementarse mediante VPN o enlaces
+privados dedicados. La seguridad debe contemplar control
+de identidad, autenticacion, autorizacion, cifrado y
+segmentacion de redes.
+
+La gestion de una infraestructura hibrida necesita
+herramientas que permitan observar los recursos de ambos
+entornos desde una perspectiva unificada.
+
+4. Continuidad operativa
+
+La continuidad operativa busca mantener disponibles los
+servicios tecnologicos frente a fallas o interrupciones.
+
+Las organizaciones pueden utilizar redundancia de
+componentes, replicacion de datos, copias de seguridad y
+planes de recuperacion ante desastres.
+
+La alta disponibilidad busca reducir las interrupciones
+del servicio. La recuperacion ante desastres contempla
+procedimientos para restaurar sistemas y datos despues
+de un evento que afecte la infraestructura.
+
+5. Gestion de capacidad
+
+La planificacion de capacidad consiste en analizar el uso
+actual de recursos y anticipar las necesidades futuras.
+
+Los principales indicadores incluyen utilizacion de CPU,
+consumo de memoria, capacidad de almacenamiento,
+rendimiento de red y crecimiento de las cargas de trabajo.
+
+Una gestion adecuada permite evitar tanto la falta de
+recursos como el sobredimensionamiento de la infraestructura.

@@ -1,0 +1,89 @@
+VIRTUALIZACION Y PLATAFORMAS DE COMPUTO
+
+1. Concepto de virtualizacion
+
+La virtualizacion es una tecnologia que permite abstraer
+los recursos fisicos de un servidor y distribuirlos entre
+multiples entornos virtuales independientes.
+
+Una maquina virtual (VM) funciona como una computadora
+logica con sistema operativo, procesadores virtuales,
+memoria, almacenamiento y adaptadores de red propios.
+
+Las maquinas virtuales comparten los recursos del servidor
+fisico, pero mantienen un nivel de aislamiento logico
+entre ellas.
+
+2. Hipervisores
+
+El hipervisor es la capa de software responsable de crear,
+ejecutar y administrar las maquinas virtuales.
+
+Los hipervisores de tipo 1 se ejecutan directamente sobre
+el hardware fisico. Se utilizan habitualmente en centros
+de datos empresariales porque ofrecen una plataforma
+dedicada para administrar recursos virtualizados.
+
+Los hipervisores de tipo 2 se ejecutan sobre un sistema
+operativo anfitrion. Son frecuentes en estaciones de
+trabajo y entornos de laboratorio.
+
+3. Asignacion de recursos
+
+Cada maquina virtual recibe una asignacion de recursos
+virtuales, como cantidad de CPU, memoria RAM y capacidad
+de almacenamiento.
+
+La asignacion debe considerar los requerimientos de las
+aplicaciones y la capacidad disponible del servidor.
+
+El overcommitment consiste en asignar recursos virtuales
+cuya suma puede superar la capacidad fisica disponible.
+Esta tecnica puede mejorar la utilizacion de recursos,
+pero requiere monitoreo para evitar contencion.
+
+La contencion de recursos ocurre cuando varias maquinas
+virtuales necesitan utilizar simultaneamente mas recursos
+de los que el servidor puede proporcionar.
+
+4. Alta disponibilidad y migracion
+
+La alta disponibilidad en virtualizacion permite reiniciar
+maquinas virtuales en otros servidores cuando se produce
+una falla de hardware, siempre que exista capacidad
+disponible y una configuracion adecuada.
+
+La migracion en vivo permite trasladar una maquina virtual
+en ejecucion desde un servidor fisico hacia otro, con una
+interrupcion minima del servicio.
+
+La migracion puede utilizarse para mantenimiento preventivo,
+redistribucion de cargas de trabajo y optimizacion de recursos.
+
+5. Proteccion de maquinas virtuales
+
+Las maquinas virtuales requieren politicas de backup
+consistentes con los requerimientos de recuperacion.
+
+Los snapshots capturan el estado de una maquina virtual
+en un momento determinado. Son utiles para operaciones
+temporales, pruebas y cambios controlados.
+
+Un snapshot no debe considerarse un reemplazo de una
+copia de seguridad independiente. Si el almacenamiento
+principal falla, los snapshots almacenados en el mismo
+sistema pueden verse afectados.
+
+6. Operacion y monitoreo
+
+La administracion de una plataforma virtualizada requiere
+controlar la utilizacion de CPU, memoria, almacenamiento
+y red.
+
+Tambien es necesario identificar maquinas virtuales
+sobredimensionadas, recursos ociosos, fallas de hardware
+y problemas de rendimiento.
+
+La consolidacion de servidores permite reducir la cantidad
+de equipos fisicos mediante la ejecucion de multiples
+maquinas virtuales en una infraestructura compartida.

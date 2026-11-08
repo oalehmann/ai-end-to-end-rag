@@ -1,0 +1,120 @@
+MONITOREO Y OPERACIONES DE INFRAESTRUCTURA IT
+
+1. Objetivo del monitoreo
+
+El monitoreo de infraestructura permite conocer el estado,
+la disponibilidad y el rendimiento de los componentes
+tecnologicos de una organizacion.
+
+Su objetivo es detectar problemas, identificar tendencias,
+anticipar incidentes y proporcionar informacion para
+mejorar la operacion de los servicios.
+
+Los elementos monitoreados pueden incluir servidores,
+maquinas virtuales, bases de datos, redes, sistemas de
+almacenamiento y aplicaciones.
+
+2. Metricas
+
+Las metricas son mediciones numericas que permiten
+evaluar el comportamiento de un sistema a lo largo
+del tiempo.
+
+Entre las metricas mas utilizadas se encuentran:
+
+- Utilizacion de CPU.
+- Consumo de memoria.
+- Espacio de almacenamiento disponible.
+- Latencia de red.
+- Throughput.
+- Cantidad de errores.
+- Tiempo de respuesta de aplicaciones.
+
+Las metricas permiten identificar tendencias y comparar
+el comportamiento actual con valores historicos.
+
+3. Logs
+
+Los logs son registros de eventos generados por sistemas,
+aplicaciones y dispositivos de infraestructura.
+
+Pueden contener informacion sobre errores, advertencias,
+autenticaciones, operaciones realizadas y cambios
+de configuracion.
+
+El analisis centralizado de logs permite correlacionar
+eventos procedentes de diferentes componentes y facilita
+la investigacion de incidentes.
+
+4. Trazas distribuidas
+
+Las trazas distribuidas permiten seguir el recorrido
+de una solicitud a traves de multiples servicios
+y componentes de una aplicacion.
+
+Son especialmente utiles en arquitecturas de microservicios,
+donde una transaccion puede involucrar diferentes
+aplicaciones y sistemas.
+
+Las trazas ayudan a identificar en que etapa se produce
+una demora o un error.
+
+5. Observabilidad
+
+La observabilidad es la capacidad de comprender el estado
+interno de un sistema mediante la informacion que produce.
+
+Las tres fuentes tradicionales de telemetria son
+metricas, logs y trazas.
+
+El monitoreo suele evaluar indicadores previamente
+definidos. La observabilidad permite investigar situaciones
+que no necesariamente fueron anticipadas mediante
+alertas especificas.
+
+6. Alertas y gestion de incidentes
+
+Las alertas se generan cuando una condicion supera
+un umbral o cuando se detecta un comportamiento anormal.
+
+Por ejemplo, una alerta puede activarse cuando la
+utilizacion de CPU supera el 90 por ciento durante
+un periodo sostenido.
+
+Una alerta debe proporcionar contexto suficiente para
+facilitar el diagnostico y la priorizacion.
+
+La gestion de incidentes incluye deteccion, clasificacion,
+diagnostico, resolucion y documentacion.
+
+La prioridad de un incidente depende de su impacto
+sobre los servicios y de la urgencia de su resolucion.
+
+7. Operaciones proactivas
+
+El monitoreo proactivo busca identificar condiciones
+que pueden convertirse en incidentes antes de que
+afecten a los usuarios.
+
+El analisis de tendencias permite anticipar agotamiento
+de capacidad, degradacion de rendimiento y crecimiento
+anormal del consumo de recursos.
+
+Los equipos de operaciones pueden utilizar tableros
+unificados para obtener una vision integral de la
+infraestructura y coordinar acciones de mantenimiento.
+
+8. Indicadores operativos
+
+La disponibilidad mide el porcentaje de tiempo durante
+el cual un servicio permanece operativo.
+
+El MTTR (Mean Time To Repair) representa el tiempo
+promedio necesario para reparar una falla y recuperar
+el servicio.
+
+El MTBF (Mean Time Between Failures) representa el
+tiempo promedio entre fallas de un componente o servicio.
+
+Estos indicadores ayudan a evaluar la confiabilidad
+y la eficiencia de las operaciones de infraestructura.
